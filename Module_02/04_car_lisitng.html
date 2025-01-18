@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cars Listing Challenge</title>
+</head>
+
+<body>
+
+    <h1>Cars Listing Challenge</h1>
+
+    <script>
+        // Step 1: Define the array with the car names
+        const cars = ["toyota", "honda", "mazda", "mitsubishi", "tesla", "lexus"];
+
+        // Step 2: Log the first and last item in the array
+        console.log("First car:", cars[0]); // First item
+        console.log("Last car:", cars[cars.length - 1]); // Last item
+
+        // Step 3: Add "mercedes-benz" to the array and log it
+        cars.push("mercedes-benz");
+        console.log("New last car:", cars[cars.length - 1]); // Log the newly added item
+
+        // Step 4: Loop through all items of the array and log them
+        console.log("All cars in the list:");
+        for (let i = 0; i < cars.length; i++) {
+            console.log(cars[i]); // Loop through and log each item
+        }
+    </script>
+
+</body>
+
+</html>
